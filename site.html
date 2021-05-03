@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+	  <title>My site </title>
+	  <link rel="stylesheet" href="style.css">
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">	  
+   </head>
+	<body>
+
+	  <div class="header">
+	    <div class="container">
+	    <div class="navbar">
+	    <div class="logo">
+		  <img src="D:\Utilisateurs\asus\Téléchargements\data-web\images\logo.png" width="125px">
+		</div>
+		<nav>
+		  <ul>
+		    <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+			<li><a href="">Contact</a></li>
+			<li><a href="">About</a></li>
+		  </ul>
+		</nav>
+		<img src="D:\Utilisateurs\asus\Téléchargements\data-web\images\menu.png" class="menu-icon">
+	   </div>
+	  <div class="row">
+	    <div class="col-2">
+	      <h1>Discover The New Collection</h1>
+		  <p>Let's See the newest collection!<br>Here you find all what you need!</p>
+	      <a href="" class="btn">Explore </a>
+		</div>
+        <div class="col-2">
+	      <img src="D:\Utilisateurs\asus\Téléchargements\data-web\images\image1.png" >
+	    </div>		
+	  </div>
+	  </div>
+	  </div>
+	<div class="categories">
+	  <div class="small-container">
+	   <div class="row">
+	   <div class="col-3">
+	    <img src="D:\Utilisateurs\asus\Téléchargements\data-web\images\category-1.jpg">
+	  </div>
+	  <div class="col-3">
+	    <img src="D:\Utilisateurs\asus\Téléchargements\data-web\images\category-2.jpg">
+	  </div>
+	  <div class="col-3">
+	    <img src="D:\Utilisateurs\asus\Téléchargements\data-web\images\category-3.jpg">
+	  </div>
+	  </div>
+	  </div>
+	  
+	  
+	</div>
+	
+	<div class="small-container">
+	   <h2 class="title">Featured Products</h2>
+	   <div class="row">
+	     <div class="col-4">
+	     <img src="D:\Utilisateurs\asus\Téléchargements\data-web\images\product-1.jpg">
+		 <h4>Red Printed T-Shirt</h4>
+		 <div class="rating">
+		    <i class="fa fa-star" ></i>
+		    <i class="fa fa-star" ></i>
+		    <i class="fa fa-star" ></i>
+		    <i class="fa fa-star" ></i>
+		    <i class="fa fa-star-o" ></i>
+		 </div>
+		 <p>50.00 TND</p>
+	   </div>
+	    <div class="col-4">
+	     <img src="D:\Utilisateurs\asus\Téléchargements\data-web\images\product-2.jpg">
+		 <h4>Black Sneakers</h4>
+		 <div class="rating">
+		    <i class="fa fa-star" ></i>
+		    <i class="fa fa-star" ></i>
+		    <i class="fa fa-star" ></i>
+		    <i class="fa fa-star" ></i>
+		    <i class="fa fa-star-o" ></i>
+		 </div>
+		 <p>70.00 TND</p>
+	   </div>
+	    <div class="col-4">
+	     <img src="D:\Utilisateurs\asus\Téléchargements\data-web\images\product-3.jpg">
+		 <h4>Men Sweatpants</h4>
+		 <div class="rating">
+		    <i class="fa fa-star" ></i>
+		    <i class="fa fa-star" ></i>
+		    <i class="fa fa-star" ></i>
+		    <i class="fa fa-star" ></i>
+		    <i class="fa fa-star-o" ></i>
+		 </div>
+		 <p>55.900 TND</p>
+	   </div>
+	    <div class="col-4">
+	     <img src="D:\Utilisateurs\asus\Téléchargements\data-web\images\product-4.jpg">
+		 <h4>Solid Polo T-Shirt</h4>
+		 <div class="rating">
+		    <i class="fa fa-star" ></i>
+		    <i class="fa fa-star" ></i>
+		    <i class="fa fa-star" ></i>
+		    <i class="fa fa-star" ></i>
+		    <i class="fa fa-star-o" ></i>
+		 </div>
+		 <p>50.00 TND</p>
+	   </div>
+	   </div>
+	</div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+	<script>
+	
+mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+	</script>
+
+
+	</body>
+</html>
